@@ -1,8 +1,6 @@
 
 ### Run Following Command to install Apache on centos 32 bit 
-`` 
-sudo yum install httpd mod_ssl
-
+`` sudo yum install httpd mod_ssl
 ``
 ### Configure Apache to run automatically
 
