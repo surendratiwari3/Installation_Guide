@@ -1,0 +1,16 @@
+
+apt-get update
+
+apt-get upgrade
+
+cd /usr/local/src
+
+git clone https://github.com/golang/go.git
+
+sudo mv go /usr/local
+
+edit the .profile
+sudo nano ~/.profile
+export GOPATH=$HOME/work
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
