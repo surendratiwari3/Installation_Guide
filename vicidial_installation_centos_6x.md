@@ -1,0 +1,3 @@
+yum upgrade
+
+yum update
